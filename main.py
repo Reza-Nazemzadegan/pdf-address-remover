@@ -8,11 +8,11 @@ from PyPDF2 import PdfReader, PdfWriter
 # Predefined replacements
 PREDEFINED_REPLACEMENTS = [
     ("Return Address", " "),
-    ("Vapeforest Ltd", " "),
-    ("34 Trafalgar House", " "),
-    ("Dickens Yard", " "),
-    ("London", " "),
-    ("W5 2TJ", " ")
+    ("Example", " "),
+    ("EXAMPLE 2", " "),
+    ("EXAMPLE", " "),
+    ("EXAMPLE", " "),
+    ("EXAMPLE", " ")
 ]
 
 def replace_text_in_pdf(pdf_path, replacements):
